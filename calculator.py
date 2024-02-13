@@ -4,4 +4,8 @@ def calculator(x,y,sign):
         return x + y
     elif sign == "-":
         return x - y
+    elif sign == "*":
+        return x * y
+    elif sign == "/":
+        return x / y
     return None
